@@ -19,7 +19,7 @@ Package.onUse(function (api) {
   api.use([
     'check',
     'ddp',
-    'ddp-common',
+    'ddp-common@1.2.9',
     'ejson',
     'meteor',
     'mongo',
@@ -47,7 +47,7 @@ Package.onTest(function (api) {
     'check',
     'http',
     'ddp',
-    'ddp-common',
+    'ddp-common@1.2.9',
     'jquery',
     'mongo',
     'random',
